@@ -99,6 +99,8 @@ approx_lk_df <- data.frame(approx_lv) |>
 # Plot it ----
 ggplot(data = approx_lk_df, aes(x = time, y = population)) +
   geom_line(aes(color = species), linewidth = 1.2)
+
+
 ```
 
 ### iv. Try updating initial conditions and / or parameters
